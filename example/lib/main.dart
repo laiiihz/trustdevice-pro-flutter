@@ -1,3 +1,5 @@
+// ignore_for_file: depend_on_referenced_packages, prefer_const_constructors, unnecessary_brace_in_string_interps, unnecessary_null_comparison, avoid_print, unused_element, unused_local_variable, slash_for_doc_comments, prefer_interpolation_to_compose_strings
+
 import 'dart:async';
 
 import 'package:flutter/foundation.dart';
@@ -99,8 +101,7 @@ class _MyAppState extends State<MyHomePage> {
                           setState(() {
                             if (blackbox != null) {
                               _mBlackbox = blackbox;
-                              print(
-                                  "getBlackBox blackbox: ${_mBlackbox}");
+                              print("getBlackBox blackbox: ${_mBlackbox}");
                             }
                           })
                         });
@@ -121,8 +122,7 @@ class _MyAppState extends State<MyHomePage> {
                           setState(() {
                             if (blackbox != null) {
                               _mBlackbox = blackbox;
-                              print(
-                                  "getBlackBox blackbox: ${_mBlackbox}");
+                              print("getBlackBox blackbox: ${_mBlackbox}");
                             }
                           })
                         });
